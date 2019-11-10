@@ -1,0 +1,153 @@
+BODY { 
+    background: #232323;
+    }
+    
+.tile1{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #232323;
+    background: url(images/1.JPG); 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.tile2{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #232323;
+    background: url(images/2.JPG); 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.tile3{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #232323;
+    background: url(images/3.JPG); 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.tile4{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #232323;
+    background: url(images/4.JPG); 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.tile5{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #232323;
+    background: url(images/5.JPG); 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.tile6{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #232323;
+    background: url(images/6.JPG); 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.tile7{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #232323;
+    background: url(images/7.JPG); 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.tile8{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #232323;
+    background: url(images/8.JPG); 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.tile9{
+    display: table-cell;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #232323;
+    background: url(images/9.JPG); 
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+}
+    
+.tile1 {background-position: left top;}
+.tile2 {background-position: center top;}
+.tile3 {background-position: right top;}
+.tile4 {background-position: left center;}
+.tile5 {background-position: center center;}
+.tile6 {background-position: right center;}
+.tile7 {background-position: left bottom;}
+.tile8 {background-position: center bottom;}
+.tile9 {background: #232323; cursor: default;}
+
+
+.text-center{
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+h1{
+    color: purple;
+}
+
+.restart{
+    color: white;
+    font-size: 30px;
+}
+
+.restart i{
+    color: purple;
+    font-size: 30px;
+    /* display: block; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: purple;
+}
+
+#sound{
+    text-decoration: none;
+    color: white;
+}
+
+#sound:hover{
+    text-decoration: none;
+    color: purple;
+}

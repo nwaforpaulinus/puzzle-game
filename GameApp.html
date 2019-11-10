@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="GameApp.css">
+    <title>GameApp</title>
+</head>
+<body>
+    <div class="container">
+        <h1><span id="moves"></span> moves(s)</h1>
+    </div>
+    <div class="container text-center">
+        
+        <div id="table" style="display: table;">
+            <div id="row1" style="display: table-row;">
+                <div id="cell11" class="tile1" onClick="clickTile(1,1);"></div>
+                <div id="cell12" class="tile2" onClick="clickTile(1,2);"></div>
+                <div id="cell13" class="tile3" onClick="clickTile(1,3);"></div>
+            </div>
+            <div id="row2" style="display: table-row;">
+                <div id="cell21" class="tile4" onClick="clickTile(2,1);"></div>
+                <div id="cell22" class="tile5" onClick="clickTile(2,2);"></div>
+                <div id="cell23" class="tile6" onClick="clickTile(2,3);"></div>
+            </div>
+            <div id="row3" style="display: table-row;">
+                <div id="cell31" class="tile7" onClick="clickTile(3,1);"></div>
+                <div id="cell32" class="tile8" onClick="clickTile(3,2);"></div>
+                <div id="cell33" class="tile9" onClick="clickTile(3,3);"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="ui container restart">
+        <div>
+            <i class="play circle icon"></i>
+            <span id="restart"><a href="#" onClick="shuffle();">Restart</a></span>
+        </div>
+        <div>
+            <i class="music icon"></i> <span id="sound"><a href="#">Turn off sound</a></span>
+        </div>
+    </div>
+            
+
+
+
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+<script src="GameApp.js"></script>
+
+
+</body>
+</html>
